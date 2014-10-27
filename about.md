@@ -3,9 +3,15 @@ layout: page
 title: About
 permalink: /about/
 ---
+![avatar](/assets/images/avatar.jpg)
+{:.center}
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+My name is Farid. Sometimes I write on this blog.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I have a strong belief that technology can have a positive impact on society, and I am particularly concerned with using technology in a socially just, civic manner.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I currently spend my days as a software developer at [Provender](http://provender.com), where we are creating an online platform to remake the path from the farmer's field to professional kitchens. Before that I was working on bikes and reading books.
+
+I currently live in Montreal, Canada.
+
+Contact me at the links below.
