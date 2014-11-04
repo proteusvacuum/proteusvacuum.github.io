@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "The story of a symbol: Or, outing myself as a technologist"
+date:   2014-11-04
+tag: personal
+---
+
+I finally received my Iron Ring. This wasn't a decision that I came to lightly. I wanted to share my reasoning behind both _not_ getting my ring when I graduated in 2011, and what made me decide to finally attend the ceremony.
+
+What is the iron ring? (   ° ᴗ°)~o 
+======================
+
+The iron ring is given to graduating engineers in Canada during a ceremony known as the _Ritual of the calling of an Engineer_. This ceremony dates back to 1922, when the President of The Engineering Institue of Canada decided that social responsibility should be promoted between engineers. Rudyard Kipling, famed [imperialist](https://en.wikipedia.org/wiki/The_White_Man%27s_Burden) and poet, was asked to create the ceremony. The goal of the ceremony is to: 
+
+> direct the young engineer towards a consciousness of [their] profession and its significance…
+
+Engineers in Canada wear the ring on the little finger of their working hand, to act as a constant reminder of "the engineer's obligation to live by a high standard of professional conduct."
+
+
+No show ┬─┬﻿ ︵ /(.□. \）
+========================================
+
+Sometime around my first or second year in university, I read Kurt Vonnegut's _Player Piano_. In this book (as I remember it), Vonnegut outlines a society where all the engineers and managers live on one side of the river, and on the other side live everyone else. The job of the engineers and managers is to make the other people's lives as easy as possible, which they have succeeded in doing by recording all the movements of the best factory worker in every factory, essentially automating everything. The people on the 'other side' of the river were liberated! They had to do no more work!
+
+However, this really meant that the people on the other side of the river were left with nothing to do. No way of expressing themselves. They were left feeling as though there was no way for them to contribute to the society they were part of. The engineers and managers, with all their good intentions, had managed to take away much of what made these people human: their creativity, their pride in their work. 
+
+While _Player Piano_ provides a pretty simplistic view of the way technology and labour interplay with each other, reading that book was really the first shock that lead me away from the technological utopia I had imagined creating when I first signed up to become an engineer.
+
+Throughout university, I was given many opportunities to strengthen my critical thinking skills (thanks, friends!), however, the engineering curriculum was structured in such a way as to make it as hard as possible to think critically about any of the projects we were tasked with. The crux of my degree was that it was technique that mattered, not the outcome. What I learned was highly technical, but we were never asked to examine how the tools we would build would be used, or for what.
+
+I wrote extensively about this in my thesis ([pdf](/assets/downloads/thesis.pdf)), where I tried to explore different options to escape this feeling. However, I don't think I actually wanted to find a solution. I felt alienated from my peers, and the profession I had supposedly spent my whole degree working to join.
+
+The ideals I felt the ring was trying to instill was too little too late. For me it fit very much with the lip-service to ethics that was rampant throughout my degree. Our "ethics" class seemed to be something of a sham. Many of our design projects were mock military execises (navigate this robot through a forest and have it shoot as many balls in a hole as possible). At that time, the ring seemed to me a symbol of much that was wrong with the engineering curriculum where there was not much space for critical thought on the outcomes of particular projects.
+
+I also saw the ring as a mark of the engineer's privilege: the privilige that an education gives you in society, the privilige of having a relatively easy time finding a job, and the power that those things hold in our world. The ring, obviously also has all of this wrapped up within it: a shiny memento of your success. I recognize that I am a product of this. However, was this something I wanted to broadcast? Would wearing this symbol that I was an 'engineer' allow me to do things that others wouldn't? Would people look at me differently? 
+
+None of these things particularly appealed to me then, and still none of them appeal to me now. I didn't go to the ceremony. I didn't get my ring. 
+
+Did I miss out on something through my silent boycott? Who knows.
+
+Anyway, 3 years later, I changed my mind.
+
+Shiny!! ☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
+==================================
+
+After my undergrad, my general feeling, if I remember correctly, was that I wanted in some way to 'stop progress'. [This article](http://www.orionmagazine.org/index.php/articles/article/4801/), somewhat sums up how I was feeling: small 'fixes' to a systemically broken system were not worth pursuing. This line of thought disabled me for many years.
+
+Between then and now, I have tried many things: I worked as a [bicycle mechanic](http://www.fitzandfollwell.co/). I read a bunch of books. I played [music](http://debtmusic.bandcamp.com/). I cooked. I built a [light suit](http://lightsuit.tumblr.com). I was on [TV](https://www.youtube.com/watch?v=v8CX4y2G_Vc). I wrote some [fiction](/2012/12/29/gatekeepers-daughter.html). I wrote news articles. I did a masters degree. I wrote magazine articles. I painted houses. None of those things stuck, and they all felt as though I was just spending time ignoring the thing I really wanted to do. 
+
+One day, I was lucky enough to be in the right place at the right time, and someone asked me to make them a website. With a lot of hesitation, I sat down at my computer and started writing code again. It felt pretty great. Something I'd lost during my degree and in the years after, was the joy of a solving a technical puzzle. For whatever reason, I hadn't allowed myself to feel that joy in a long time.
+
+While denying myself this joy, it was easy to stay unfocussed, to dabble, to ignore the nagging feelings that I was still wading, still trying to find where my puzzle piece fit. But soon, the thread that connected all of these other activities was clear to me: I'm not happy unless I am in some way exploring the world, the way it works, and trying to build tools in order to interact with it. Basically, I need to be making things. Software, it seems to me right now, is the tool with which I can do that.
+
+"As society", I wrote in my thesis, "it seems we have lost sight of what technology means, and the places that modern technology is taking us." 
+
+So then I was basically back at the same point as I was when I started university: bright eyed, excited to get my hands dirty. With that excitement, I've found, it's really easy to get wrapped up in the minutia of the every-day — the easiest option being to ignore, or disregard the bigger picture of the project you are working on. While developing software, the technical problems are so intrinsically interesting and fun to solve that it is easy to forget the context within which they are embedded. 
+
+This is exactly what I was worried about at the end of my degree — that I would end up working on projects that, if I thought about them in any critical way, I would realize that they didn't fit with my worldview. 
+
+I decided that I needed somthing to ground me. To remind me both of who I was as a 'technologist', but also to make a commitment to myself that I would uphold the values that define me. 
+
+I figured it needed to be something that I would have on me at all times, that would challenge me to constantly think critically about the projects I was working on, but that would also remind me that it was OK to enjoy myself, to solve problems and take pleasure in technical problems. 
+
+I thought about getting a tattoo. But I never could settle on a design. I thought about getting more piercings. But the division between the meaning and the symbol was too great. 
+
+Enter the iron ring. If I allow myself to liberally interpret its meaning, I see it acting as a reminder of the effects of all of my actions on other people. A reminder to myself to critically evaluate the bigger picture of the things I am building, and to remember and acknowledge the place of privilege I sit in.
+
+That fit pretty closely with what I was looking for. I decided to sign up for the ceremony, and that's why I'm now wearing the iron ring.
