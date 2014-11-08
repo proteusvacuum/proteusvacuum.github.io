@@ -1,10 +1,10 @@
 # Site settings
-title: "{{farid rener}}"
+title: "{farid rener}"
 email: hello@faridrener.com
 description: > # this means to ignore newlines until "baseurl:"
   Tech, the world, and how they aren't always working for each other. Excuse the puns. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://www.faridrener.com" # the base hostname & protocol for your site
 twitter_username: proteusvacuum
 github_username:  proteusvacuum
 keybase_username: provac
