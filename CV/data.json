@@ -1,0 +1,327 @@
+{
+ "name": "Farid  Rener",
+ "image":"images/farid.png",
+ "info":{
+            "title":"Hello! My name is Farid...",
+            "subhead":"I'm a web developer, hacker, musician, and electrical engineer. I'm do stuff on computers, and sometimes in meatspace.",
+            "text":"<div><p>I have a strong belief that technology can have a positive impact on society, and I am particularly concerned with using technology in a socially just, civic manner.<p>I currently spend my days as a software developer at <a href='http://www.provender.com' target='_blank'>Provender</a>, where we are creating an online platform to remake the path from the farmer's field to professional kitchens. I currently also work as a digital artist, musician, and journalist after spending three years as a professional bicycle mechanic.</p><p>I spend my nights doing other things that you probably don't want to know about. Sometimes, I blog <a href='/'>here</a>.</p><p>You can contact me at the links below.</a></div>",
+            "avatar":"./images/lightsuit.jpg"
+          },
+ "children": [
+    {
+      "name":"Education",
+      "image":"./images/books.png",
+      "children":[
+        {
+          "name":"GCSE (UK)",
+          "info":{
+            "title":"Kingston Grammar School, UK (2003)",
+            "subhead":"British GCSE examinations",
+            "text":"Triple Science (Physics, Chemistry, Biology), History, English Language and Literature.",
+            "avatar":"./images/KGS.jpg"
+          }
+
+        },       
+        {
+          "name":"IB (France)",
+          "info":{
+            "title":"American School of Paris (2005)",
+            "subhead":"International Baccalaureate Diploma. <p>Final Grade: 37/41",
+            "text":"<ul><li>Higher Level: Chemistry, Physics, Economics. <li>Standard Level: English, Mathematics, French Language",
+            "avatar":"./images/ASP.jpg"
+          }
+
+        },      
+        {
+          "name":"B.Eng (Hons.)",
+          "info":{
+            "title":"McGill University (2006-2011)",
+            "subhead":"Bachelor of Electrical Engineering (Honours). <br>Minor in Musical Science and Technology.<br>CGPA 3.6",
+            "text":"Specialization: Digital signal processing, human-computer interaction.<p>My honours thesis is entitled<i> Engineering for Social & Environmental Justice: A Design Framework towards a Sustainable Engineering.</i><p>I was on the board of directors of the <a href='http://www.qpirgmcgill.org' target='_blank'>Quebec Public Interest Research Group</a> (QPIRG), was a collective member and volunteer bicycle mechanic at <a href='http://theflat.wordpress.com' target='_blank'>The Flat Bike Collective</a>. I contributed news and culture programming on the radio at <a href='http://ckut.ca' target='_blank'>CKUT</a>, and I wrote news for <a href ='http://mcgilldaily.com' target='_blank'>The McGill Daily</a>",
+            "avatar":"http://upload.wikimedia.org/wikipedia/en/thumb/2/29/McGill_University_CoA.svg/160px-McGill_University_CoA.svg.png"
+          }
+
+        },
+        {
+          "name":"M.Arch",
+          "info":{
+            "title":"McGill University (2012-2013)",
+            "subhead":"Masters of Architecture (History & Theory). CGPA 3.93",
+            "text":"While learning about the history of architecture, I was an editor at <a href ='http://mcgilldaily.com' target='_blank'>The McGill Daily</a> and made radio for <a href='http://ckut.ca' target='_blank'>CKUT</a>.",
+            "avatar":"http://upload.wikimedia.org/wikipedia/en/thumb/2/29/McGill_University_CoA.svg/160px-McGill_University_CoA.svg.png"
+          }
+        }
+      ]
+    },
+    {
+      "name":"Web",
+      "image":"./images/globe.png",
+      "info":{
+            "title":"Web",
+            "subhead":"I build beautiful, functional websites, and interactive infographics (like this one!).",
+            "text":"I am the lead front-end developer at <a href='http://provender.com' target='_blank'>Provender</a>. <p>I have an in-depth knowledge of front- and back-end technologies, and am skilled in: Backbone.js, Marionette.js, Ruby on Rails, Python, Coffeescript, JavaScript, JQuery, d3.js, PHP, HTML/CSS, Wordpress, &amp;c.",
+            "avatar":""
+          },
+      "children":[
+        {
+          "name":"Provender",
+          "info":{
+            "title":"<a href = 'http://provender.com' target='_blank'>Provender</a> (Ongoing)",
+            "subhead":"Provender is leveraging advances in technology and connectivity to remake the path from farmer’s field to professional kitchen, offering new ways for farmers to access markets, reduce waste, and improve sustainability, and creating new channels for food service providers to purchase and discover fresh, local produce.",
+            "text":"I am the lead front-end developer at Provender, where a large portion of my day is spent doing user-experience and interaction design.<p>In two months, I rebuilt the whole of Provender's marketplace in Backbone.js using an iterative design process that meticulously took real user experiences into account.",
+            "avatar":"./images/provenderlogo.png"
+          }
+        },
+        {
+          "name":"A Time to Swim",
+          "info":{
+            "title":"<a href = 'http://atimetoswim.com' target='_blank'>A Time to Swim</a> (2013)",
+            "subhead":"Website for the movie <i><a href = 'http://atimetoswim.com' target='_blank'>A Time to Swim</a></i>, which is currently in preproduction",
+            "text":"<a href = 'http://atimetoswim.com' target='_blank'><img src='./images/timetoswim.png' width='300px'></img></a>",
+            "avatar":"./images/timetoswim.png"
+          }
+        },
+        {
+          "name":"Silo",
+          "info":{
+            "title":"<a href = 'http://silomontreal.com' target='_blank'>Silo Magazine</a> (2013)",
+            "subhead":"Developer, co-designer, and web editor for the website for <a href = 'http://silomontreal.com' target='_blank'>Silo Magazine</a>.",
+            "text":"<a href = 'http://silomontreal.com' target='_blank'><img src='./images/silo.png' width='300px'></img></a>",
+            "avatar":"./images/silo.png"
+          } 
+        },
+        {
+          "name":"Timelines",
+          "info":{
+            "title":"<a href = 'http://https://github.com/proteusvacuum/newsie-timeline' target='_blank'>Interactive Timeline Generator</a> (2013)",
+            "subhead":"A JavaScript/JQuery timeline generator.",
+            "text":"This tool takes a Google Drive Spreadsheet and converts it into an interactive timeline which you can easily embed in any web project. <p>Get the code <a href = 'https://github.com/proteusvacuum/newsie-timeline' target='_blank'>here </a><p>An example can be found <a href='http://timeline.faridrener.com'>here</a>.<p><img src='./images/timeline.png' width='300px'></img>",
+            "avatar":"./images/timeline.png"
+          } 
+        }       
+      ]
+    },    
+    {
+      "name":"Writing & Journalism",
+      "image":"./images/pen.png",
+      "children":[
+        {
+          "name":"The McGill Daily",
+            "info":{
+            "title":"Editor at The McGill Daily",
+            "subhead":"My roles included editing, assigning, and writing relevant news stories for the bi-weekly print and online newspaper.",
+            "text":"I also wrote arts & culture, and science & technology pieces, produced and hosted radio discussions about current events in collaboration with <a href ='http://ckut.ca' target='_blank'>CKUT</a>, and wrote a bi-weekly satirical column about bikes, love, and bike-love.<p>Selected clips:<ul><li><a href='http://www.mcgilldaily.com/2013/03/medical-resident-says-he-was-punished-for-standing-up-for-patients/' target='_blank'>Medical resident says he was punished for standing up for patients</a> (March 23, 2013)</li><li>Radio: <a href='http://www.mcgilldaily.com/2013/03/the-mcgill-daily-and-ckut-present-an-alternative-summit-on-higher-education/' target='_blank'>An alternative summit on higher education</a> (March 15,2013)</li><li><a href='http://www.mcgilldaily.com/2013/02/library-reference-section-to-be-downsized/' target='_blank'>Library reference section to be downsized</a> (February 28, 2013)</li><li><a href='http://www.mcgilldaily.com/2013/02/physics-survey-highlights-sexism-among-students/' target='_blank'>Physics survey highlights sexism among students</a>&nbsp;(February 11, 2013, with Lola Duffort)</li><li><a href='http://www.mcgilldaily.com/2013/01/uqam-students-fight-increased-surveillance/' target='_blank'>UQAM students fight increased surveillance</a>&nbsp;(January 31, 2013)</li></ul>A full list of clips can be found <a href='http://www.mcgilldaily.com/author/faridrener/' target='_blank'>here</a>.",
+            "avatar":"./images/DailyLogo.gif"
+            }
+        },  
+        {
+          "name":"Maisonneuve",
+            "info":{
+            "title":"<a href='http://maisonneuve.org/article/2013/02/12/interview-stephen-platt/' target = '_blank'>Interview with Stephen Platt</a>",
+            "subhead":"The author of <i>Autumn in the Heavenly Kingdom</i> talks cannibalism, rebellion and how little he still knows about China",
+            "text":"The Taiping civil war, one of the most gruesome civil wars in history, claimed the lives of 20 million people. The uprising, which Steven Platt describes in all its gory detail in Autumn in the Heavenly Kingdom (Knopf), started after Hong Xiuquan, a failed civil servant, hallucinated that he was the brother of Jesus Christ and was chosen by God to rid China of the ruling Manchu 'demons.'' In this narrative history, Platt takes us on a journey through a tumultuous China as a home-grown rebellion, built on the power of the poor and a leader who preaches Confucian-infused Protestantism, is set to drastically change the country's status quo.<p> When bumbling British and American troops, scared that their precious supply of tea is about to be cut off, put their weight behind the prevailing Qing dynasty, the tale becomes one of mistrust, miscommunication and misunderstanding. The moral of this story for us, says Platt, has to do with the dangers of assuming that you can understand a foreign civil war on your own terms. By the end of the tale, Hong Rengan, prime minister of the Heavenly Kingdom, has no faith left. 'I have never met a good foreigner,' he says.<p>Read more <a href='http://maisonneuve.org/article/2013/02/12/interview-stephen-platt/' target = '_blank'>here</a>.",
+            "avatar":"./images/maisy.jpg"
+            }
+        },
+        {
+          "name":"CityTV",
+            "info":{
+            "title":"Only In Montreal",
+            "subhead":"Wrote and Co-Hosted one episode of <a href='http://www.citytv.com/montreal/shows/only-in-montreal/' target='_blank'>Only In Montreal",
+            "text":"Aired first week of August, 2013 on CityTV.<p> I starred alongside Montreal's Tammy Emma Pepin. <p>This is an adaptation of my article <a href='http://silomontreal.com/features/montreals-streets-are-not-so-saintly/' target='_blank'>Montreal's streets are not so saintly</a>, published in Silo Magazine.<p>Recorded, unfortunately, when I thought it was cool to have a moustache.<p><iframe width='560' height='315' src='//www.youtube.com/embed/v8CX4y2G_Vc?rel=0' frameborder='0' allowfullscreen></iframe>",
+            "avatar":"./images/cityTVlogo.png"
+            }
+        },
+        {
+          "name":"Silo Magazine",
+            "info":{
+            "title":"<a href='http://silomontreal.com/' target='_blank'>Silo Magazine</a>",
+            "subhead":"My clips from <a href='http://silomontreal.com/' target='_blank'>Silo Magazine</a>, where I am also the current web editor.",
+            "text":"<ul><li><a href='http://silomontreal.com/arts-culture/questioning-where-you-belong/' target='_blank'>Questioning where you belong</a>: A Q&A with Stefan Christoff and Sam Shalabi (July 22, 2013)<li><a href='http://silomontreal.com/features/servez-vous/' target='_blank'>Servez-Vous</a>: A mile end wasteland turned into a city park. (May 20, 2013) <li><a href='http://silomontreal.com/features/montreals-streets-are-not-so-saintly/' target='_blank'>Montreal's streets are not so saintly</a>:History reveals that sainthood in this city is less driven by beatific visions and more by wealth, nobility, and love. (March 25, 2013)",
+            "avatar":"./images/silologo.png"
+            }
+        },
+        {
+          "name":"Art Threat",
+            "info":{
+            "title":"<a href='http://artthreat.net' target='_blank'>Art Threat</a>",
+            "subhead":"My clips from <a href='http://artthreat.net' target='_blank'>Art Threat</a>, an art and politics website.",
+            "text":"<ul><li><a href='http://artthreat.net/2013/04/temps-libre-album-review/' target='_blank'>Temps Libre</a>: an album filled with hope, inspired by the printemps érable (April 15, 2013)",
+            "avatar":"./images/artthreat.png"
+            }
+        },
+        {
+          "name":"CBC",
+            "info":{
+            "title":"Photo: Water main damaged, floods downtown Montreal",
+            "subhead":"My photo of the water breach was published on <a href='http://www.cbc.ca/news/canada/montreal/story/2013/01/28/montreal-flood-downtown-montreal.html' target='_blank'>CBC</a>, and Radio Canada",
+            "text":"<img src='./images/floodphoto.jpg' width='300px'></img>",
+            "avatar":"./images/cbcnews.png"
+            }
+        }                  
+      ]
+    },     
+    {
+      "name":"Music",
+      "image":"./images/music.png",
+      "children":[
+        {
+          "name":"DEBT",
+          "info":{
+            "title":"<a href ='http://debtmusic.bandcamp.com/' target='_blank'>DEBT</a>",
+            "subhead":"Played drums. Brought some rock.  All artwork by yours truly. 2012-2013",
+            "text":"<iframe style='border: 0; width: 100%; height: 42px;' src='http://bandcamp.com/EmbeddedPlayer/album=1179847270/size=small/bgcol=ffffff/linkcol=de270f/transparent=true/' seamless><a href='http://debtmusic.bandcamp.com/album/dont-ruin-this-for-everyone'>Don&#39;t Ruin This For Everyone by DEBT</a></iframe>",
+            "avatar":"./images/DEBT.jpg"
+          }
+
+        },
+        {
+          "name":"Wind-Up People",
+          "info":{
+            "title":"<a href ='http://winduppeople.bandcamp.com/' target='_blank'>Wind-Up People</a>",
+            "subhead":"Played drums. Recorded some albums. Played some shows.  2010-2012",
+            "text":"<iframe style='border: 0; width: 100%; height: 42px;' src='http://bandcamp.com/EmbeddedPlayer/album=310341828/size=small/bgcol=ffffff/linkcol=333333/transparent=true/' seamless><a href='http://winduppeople.bandcamp.com/album/all-this-culture-is-killing-me'>All This Culture Is Killing Me by Wind-Up People</a></iframe>",
+            "avatar":"./images/WUP.jpg"
+          }
+        },
+        {
+          "name":"How Sad",
+          "info":{
+            "title":"<a href ='http://howsad.bandcamp.com/' target='_blank'>How Sad</a>",
+            "subhead":"Played live drums. Danced like a fool. Birthed the lightsuit.  2010-2012",
+            "text":"<iframe style='border: 0; width: 100%; height: 42px;' src='http://bandcamp.com/EmbeddedPlayer/album=235102826/size=small/bgcol=ffffff/linkcol=333333/transparent=true/' seamless><a href='http://howsad.bandcamp.com/album/indian-summer-ep'>Indian Summer EP by How Sad</a></iframe>",
+            "avatar":"./images/howsad.jpg"
+          }
+        },
+        {
+          "name":"Hoof and the Heel",
+          "info":{
+            "title":"<a href ='http://thehoofandtheheel.bandcamp.com/' target='_blank'>The Hoof and the Heel</a>",
+            "subhead":"Played drums. Went on a five week US tour.  2008-2011",
+            "text":"<iframe style='border: 0; width: 100%; height: 42px;' src='http://bandcamp.com/EmbeddedPlayer/album=953924207/size=small/bgcol=ffffff/linkcol=333333/transparent=true/' seamless><a href='http://thehoofandtheheel.bandcamp.com/album/and-all-the-tigers'>And All The Tigers by The Hoof &amp; The Heel</a></iframe>",
+            "avatar":"./images/hoof.jpg"
+          }
+        }        
+      ]
+    },
+    {
+      "name":"Hardware",
+      "image":"./images/cogs.png",
+      "children":[
+        {
+          "name":"Light Painting",
+          "info":{
+            "title":"Light Painting tools for Patrick Rochon",
+            "subhead":"Designed and built tools for master light painter <a href='http://www.patrickrochon.com/' target='_blank'>Patrick Rochon</a> for use in his photo shoots.",
+            "text":"<img src='./images/lightpainting.jpg' width='300px'></img>",
+            "avatar":"./images/lightpainting.jpg"
+          }
+        },
+        {
+          "name":"!!!Light Suit!!!",
+          "info":{
+            "title":"<a href='http://lightsuit.tumblr.com/' target='_blank'>Wearable LED suit!!!</a>",
+            "subhead":"Designed, built, wore, hacked, and entertained. 2011-2012 ",
+            "text":"<p>This is a wearable interactive light suit made for use in musical performances. Conceptualized, designed and built 16x16 LED matrix and performed advanced <a href='http://www.arduino.cc' target='_blank'>Arduino</a> coding. Wrote a GUI in <a href='http://www.processing.org' target='_blank'>Processing</a>.</p><p>Vernissage at the Canadian Centre for Architecture, 2011. Displayed at the <a href='http://www.makerfairemontreal.ca/english-whos-making-what/?lang=en' target='_blank'>Montreal Maker Faire</a>, Summer 2012.</p><img src='./images/lightsuit.jpg' width='300px'></img>",
+            "avatar":"./images/lightsuit.jpg"
+          }
+        },
+        {
+          "name":"RAMS",
+          "info":{
+            "title":"RAMS: Radial Audio Menu System",
+            "subhead":"A mobile interface for blind and visually impaired individuals using spatialized sound. ",
+            "text":"Created for my <a href='http://www.cim.mcgill.ca/~jer/courses/hci/' target='_blank'>Human-Computer Interaction</a> class, this project examined the potential for an eyes-free mobile phone menu by using simple gestural input and spatialized audio. We designed this project, which required an in-depth analysis and understanding of accessibility requirements, in collaboration with blind and visually impaired individuals.",
+            "avatar":"./images/rams.png"
+          }
+        },
+        {
+          "name":"LED blinkies",
+          "info":{
+            "title":"LED installations",
+            "subhead":"Interactive LED installations at Gallery Rye and The Plant in Montreal. Both are made with arduinos, transistors, and python scripts. With Cody Scharfe.",
+            "text":"<p>!!AUFBAU!!</p> <object width='400' height='300'> <param name='flashvars' value='offsite=true&lang=en-us&page_show_url=%2Fphotos%2Ffaridrener%2Fsets%2F72157627857890895%2Fshow%2Fwith%2F6281135390%2F&page_show_back_url=%2Fphotos%2Ffaridrener%2Fsets%2F72157627857890895%2Fwith%2F6281135390%2F&set_id=72157627857890895&jump_to=6281135390'></param> <param name='movie' value='http://www.flickr.com/apps/slideshow/show.swf?v=124984'></param> <param name='allowFullScreen' value='true'></param><embed type='application/x-shockwave-flash' src='http://www.flickr.com/apps/slideshow/show.swf?v=124984' allowFullScreen='true' flashvars='offsite=true&lang=en-us&page_show_url=%2Fphotos%2Ffaridrener%2Fsets%2F72157627857890895%2Fshow%2Fwith%2F6281135390%2F&page_show_back_url=%2Fphotos%2Ffaridrener%2Fsets%2F72157627857890895%2Fwith%2F6281135390%2F&set_id=72157627857890895&jump_to=6281135390' width='400' height='300'></embed></object> <p>Syzygy</p><object width='400' height='300'> <param name='flashvars' value='offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fcodyscharfe%2Fsets%2F72157625946015059%2Fshow%2Fwith%2F5452016991%2F&page_show_back_url=%2Fphotos%2Fcodyscharfe%2Fsets%2F72157625946015059%2Fwith%2F5452016991%2F&set_id=72157625946015059&jump_to=5452016991'></param> <param name='movie' value='http://www.flickr.com/apps/slideshow/show.swf?v=124984'></param> <param name='allowFullScreen' value='true'></param><embed type='application/x-shockwave-flash' src='http://www.flickr.com/apps/slideshow/show.swf?v=124984' allowFullScreen='true' flashvars='offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fcodyscharfe%2Fsets%2F72157625946015059%2Fshow%2Fwith%2F5452016991%2F&page_show_back_url=%2Fphotos%2Fcodyscharfe%2Fsets%2F72157625946015059%2Fwith%2F5452016991%2F&set_id=72157625946015059&jump_to=5452016991' width='400' height='300'></embed></object>",
+            "avatar":"./images/syzygy.jpg"
+          }
+        }       
+      ]
+    },
+        {
+      "name":"Research",
+      "image":"./images/lab.png",
+      "children":[
+       {
+          "name":"FARMM",
+          "info":{
+            "title":"<a href='http://www.farmmresearch.com/' target='_blank'>Facility for Architectural Research in Media and Mediation</a> (2012)",
+            "subhead":"Modelling the Methodologies of our Time. With Prof. Michael Jemtrud.",
+            "text":"This research-creation project aimed to investigate the qualities, biases, and benefits inherent in specific contemporary technological modes of creation; <li>I researched the uses of sensors in architecture and created a critical framework to unpack the nature of the effects this technology had on both the experience of architecture and the creative process;<li> To this end, created interactive simulations in Processing and the xBox Kinect in order to model the 'methodologies of our time', and provide insight into the ways new technologies are transforming the creative process.<p><b>Technical skills:</b><li> In-depth knowledge of cutting-edge sensor systems and their potential uses in architecture and other creative endeavours;<li> 3-D graphics and visualization coding in Processing;<li> DSP algorithms to analyze input data from Kinect;<li> Ability to analyse the greater importance of the tools and systems used.",
+            "avatar":"./images/FARMM.jpg"
+          }
+        },       
+       {
+          "name":"HCI",
+          "info":{
+            "title":"Shared Reality Environment Lab (2009)",
+            "subhead":"A mobile interface for blind and visually impaired individuals using spatialized sound. With Prof. Jeremy Cooperstock.",
+            "text":"<li>Built preliminary models of a human-computer interface that used textured surfaces to allow for 'scratching' and 'sliding' motions on an interactive floor.<li>Built a physical model with high-precision CNC;<li>Using sound signals and DSP algorithms, created a mock-up interaction device that could be used to sense 'shuffling' and 'foot-dragging' on the NIW floor. <li>This project required in-depth knowledge of Matlab and DSP algorithms.",
+            "avatar":"./images/SRE.png"
+          }
+        },
+       {
+          "name":"Haptics",
+          "info":{
+            "title":"McGill Haptics Lab (2008)",
+            "subhead":"An fMRI compatible finger stimulator. With Prof. Vincent Hayward.",
+            "text":"Built an electronic device to work inside an fMRI machine (no metal or magnets) to stimulate a forefinger for an experiment to understand the functioning of the brain when a forefinger is stimulated. This required a custom-built digital-to-analogue converter with a parallel port interface that sent messages to an ultrasonic motor.",
+            "avatar":"./images/SRE.png"
+          }
+        }                  
+      ]
+    },
+{
+      "name":"Volunteering",
+      "image":"./images/users.png",
+      "children":[
+        {
+          "name":"LPVR",
+          "info":{
+            "title":"Le Petit Vélo Rouge (2013)",
+            "subhead":"Coordinator and head bicycle mechanic",
+            "text":"Coordinated a team of volunteers to build and refurbished used bicycles for sale to students living in the Notre-Dame-de-Grace neighbourhood of Montreal. <p>Participated in talks with Concordia university administration to find a permanent physical home for the non-profit organization",
+            "avatar":"./images/lpvr.png"
+          }
+        },
+        {
+          "name":"QPIRG",
+          "info":{
+            "title":"<a href='http://qpirgmcgill.org/' target='_blank'>Quebec Public Interest Group - McGill</a> (2012)",
+            "subhead":"Member of the Board of Directors of the Quebec Public Interest Research Group - McGill",
+            "text":"I was a board member at QPIRG-McGill during an existence referendum, where we had to lobby students and the administration to in order to secure another memorandum of agreement.<p>I participated in collective meetings and decided on the uses of discretionary funding every two weeks. <p>Took part in organizing and promoting events to raise awareness of social justice issues at McGill and in the Montreal community. <p> I was part of the convergence journal working group, who gathered, edited, and put online a journal of undergraduate and community research. I designed and built and now update the convergence journal <a href='http://convergencejournal.ca' target='_blank'>website</a>. ",
+            "avatar":"./images/qpirgmcgill.jpg"
+          }
+        },
+        {
+          "name":"The Flat",
+          "info":{
+            "title":"<a href='http://theflat.wordpress.com' target='_blank'>The Flat Bike Collective</a> (2009-2012)",
+            "subhead":"Collective Member and Volunteer Mechanic",
+            "text":"I was an active participant in the day-to-day running of The Flat Bike collective, one of Montreal's most used bike collectives, where people are empowered with tools and knowledge to fix their own bicycles. I gave weekly workshops on bicycle mechanics, both to volunteers and shop patrons, and volunteered as an “experienced mechanic” during shop open hours once a week. <p>Key projects:<ul><li>Collaboration with the Montreal Native Friendship centre, where youth came on the weekends to learn about bicycle mechanics<li>Creation of winter riding materials, with tips and tricks of how to brave Montreal's winters on two wheels. These are now sold at Fitz & Follwell.",
+            "avatar":"./images/theflat.png"
+          }
+        },         
+        {
+          "name":"AKES, Tajikistan",
+          "info":{
+            "title":"Aga Khan Education Services, Tajikistan: Camp Director & Chemistry and Physics Teacher (2005)",
+            "subhead":"In 2005 I spent three months in Tajikistan in Central Asia as the director of a leadership camp and a physics and chemistry teacher",
+            "text":"<h3>Camp Director</h3><li>Designed, led, and organized a rural summer camp for 55 youth (aged 14-18) from Khorog, Tajikistan to improve leadership, teamwork, and communication skills.<li>Worked in a team of four to find a location in the rural Pamir mountains of Tajikistan.<li>Created two weeks of outdoors and leadership programming for the youth, many of whom had never left the city.<h3>Physics and Chemistry Teacher</h3>Taught physics and chemistry to eighth and ninth graders. <li>Created lesson plans and experiments.<li>Developed and presented a workshop for local teachers to help them use information from the internet and in English-language textbooks. ",
+            "avatar":"./images/akes.gif"
+          }
+        }
+
+
+      ]
+    }          
+  ]
+}

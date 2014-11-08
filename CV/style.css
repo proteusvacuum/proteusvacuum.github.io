@@ -1,0 +1,38 @@
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+  
+.node {
+  font: 10px sans-serif;
+  cursor: pointer;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 4px;
+}
+
+svg{
+  display:block;
+  margin:auto;
+}
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: auto;                  
+  height: auto;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: lightsteelblue;   
+  border: 0px;
+  opacity:0.7;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+#info-container{
+  display:block;
+  margin:auto;
+}
