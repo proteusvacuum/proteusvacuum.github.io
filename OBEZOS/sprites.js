@@ -177,6 +177,10 @@ Quintus.GameSprites = function(Q){
 			if (p.landed){
 				p.vx = 0;
 			}
+			if (p.y > 1000){
+				this.destroy() //Destroy drones when they go offscreen
+			}
+
 		}
 	});
 

@@ -1,11 +1,12 @@
 Quintus.GameScenes = function(Q){
-	
 	Q.scene("start", function(stage){
-		setTimeout(function(){Q.audio.play("laugh.mp3")}, 1000);
+		setTimeout(function(){Q.audio.play("laugh.mp3");}, 1000);
 		stage.insert(new Q.OBEZOS({
 			x: Q.width / 2,
 			y: (Q.height / 2) - 200
 		}));
+
+		stage.insert(new Q.Hiscore());
 
 		stage.insert(new Q.UI.Text({
 			label: "When the OBEZOS drones deliver 10 packages, you'll be out of work!",
@@ -25,7 +26,7 @@ Quintus.GameScenes = function(Q){
 			y: (Q.height / 2) + 80
 		}, function() {
 			this.destroy();
-			Q.state.reset({ drone_delivered: 0, health: 100, score: 0});
+			Q.state.reset({ drone_delivered: 0, health: 100, score: 0, name: 'AAA'});
 			
 			Q.stageScene('level1');
 
@@ -94,7 +95,7 @@ Quintus.GameScenes = function(Q){
 		score: function(score) {
 			this.p.label = "Score: " + score;
 		}
-	});	
+	});
 	Q.UI.Text.extend("Health", {
 		init: function(p){
 			this._super({
@@ -108,7 +109,7 @@ Quintus.GameScenes = function(Q){
 		health: function(health) {
 			this.p.label = "Health: " + health;
 		}
-	});	
+	});
 	
 	Q.UI.Text.extend("Delivered", {
 		init: function(p){
@@ -138,34 +139,151 @@ Quintus.GameScenes = function(Q){
 		// container.fit(20);
 	});
 
-
-	// To display a game over / game won popup box, 
-	// create a endGame scene that takes in a `label` option
-	// to control the displayed message.
-	Q.scene('endGame',function(stage) {
-		
-		Q.audio.stop();
-		
-		Q.audio.play("laugh.mp3");
-		
-		var container = stage.insert(new Q.UI.Container({
-			x: Q.width/2, y: Q.height/2, fill: "rgba(0,0,0,0.5)"
-		}));
-
-		var button = container.insert(new Q.UI.Button({ x: 0, y: 0, fill: "#CCCCCC",
-			label: "Play Again" }));
-		var label = container.insert(new Q.UI.Text({x:10, y: -10 - button.p.h,
-			label: stage.options.label }));
-		// When the button is clicked, clear all the stages
-		// and restart the game.
-		button.on("click",function() {
-			Q.clearStages();
-			Q.state.reset({ drone_delivered: 0, health: 100, score: 0});
-			Q.stageScene('level1');
-		});
-
-		// Expand the container to visibily fit it's contents
-		// (with a padding of 20 pixels)
-		container.fit(20);
+	Q.UI.Text.extend("EnterName", {
+		init: function(p){
+			this._super({
+				label: "Enter your name... Hit FIRE to save. " ,
+				x: Q.width / 2,
+				y: (Q.height / 2),
+				size: 20
+			});
+		}
 	});
+
+	Q.UI.Text.extend("LetterUnderline", {
+		index: 0,
+		init: function(p){
+			this._super({
+				label: "_  " ,
+				x: Q.width / 2,
+				y: (Q.height / 2) + 30,
+				size: 40,
+				family: "monospace"
+			});
+			Q.input.on("right", this, "nextLetter");
+			Q.input.on("left", this, "prevLetter");
+		},
+		setUnderline: function(){
+			if (this.index === 0){
+				this.p.label = "_  ";
+			} else if (this.index === 1){
+				this.p.label = " _ ";
+			} else if (this.index == 2){
+				this.p.label = "  _";
+			}
+		},
+		nextLetter: function(){
+			if (this.index < 2) this.index++;
+			this.setUnderline();
+		},
+		prevLetter: function(){
+			if (this.index > 0) this.index--;
+			this.setUnderline();
+		}		
+	});
+
+	Q.UI.Text.extend("Letters", {
+		index: 0,		
+		name: function(){ return Q.state.get("name"); },
+		currentLetter: function(){ return this.name()[this.index]; },
+		
+		replaceLetter: function(index, character) {
+			return this.name().substr(0, index) + character + this.name().substr(index+character.length);
+		},
+		
+		init: function(p){
+			this._super({
+				label: Q.state.get("name"),
+				x: Q.width / 2,
+				y: (Q.height / 2) + 30,
+				size: 40,
+				family: "monospace"
+			});
+
+			Q.input.on("goUp", this, "upLetter");
+			Q.input.on("down", this, "downLetter");
+			Q.input.on("right", this, "nextLetter");
+			Q.input.on("left", this, "prevLetter");
+		},
+
+		upLetter: function(){
+			var letter = String.fromCharCode(this.currentLetter().charCodeAt() + 1);
+			var newName = this.replaceLetter(this.index, letter);
+			Q.state.set("name", newName);
+			this.p.label = newName;
+		},
+
+		downLetter: function(){
+			var letter = String.fromCharCode(this.currentLetter().charCodeAt() - 1);
+			var newName = this.replaceLetter(this.index, letter);
+			Q.state.set("name", newName);
+			this.p.label = newName;
+		},
+
+		nextLetter: function(){
+			if (this.index < 2) this.index++;
+		},
+
+		prevLetter: function(){
+			if (this.index > 0) this.index--;
+		}
+
+	});
+
+Q.UI.Text.extend('Hiscore', {
+	counter: 0,
+	scores: [],
+	addScore: function(score){
+		var scores = Q.state.get("hiScores") || [];
+		scores.push(score);
+		Q.state.set("hiScores", scores);
+		Q.state.trigger("change.hiScores");
+	},
+	getScoreText: function(){
+		var label = "";
+		var scores = Q.state.get("hiScores");
+		scores.forEach(function(score){
+			label = label + "\n" + score.name + " " + -1 * score.score;
+		});
+		return label;
+	},
+	init: function(){
+		this._super({
+			label: "Loading scores...",
+			x: 150,
+			y:  200,
+			size: 30,
+			align: 'right'
+		});
+		
+		var self = this;
+		Q.state.on("change.hiScores", function(){
+			self.p.label = self.getScoreText();
+		});
+		Q.scoreBoard.orderByChild("score").limitToFirst(10).on("child_added", function(snapshot) {
+			self.addScore(snapshot.val());
+		});
+	}
+});
+
+Q.scene('endGame', function(stage){
+		// Q.audio.stop();
+		// Q.audio.play("laugh.mp3");
+		var container = stage.insert(new Q.UI.Container({
+			x: 0,
+			y: 0,
+			fill: "rgba(0,0,0,0.5)"
+		}));
+		container.insert(new Q.EnterName());
+		container.insert(new Q.Letters());
+		container.insert(new Q.LetterUnderline());
+		// container.insert(new Q.Hiscore());
+		Q.input.on("fire", this, function(){
+			Q.scoreBoard.push({name: Q.state.get("name"), score: -1 * Q.state.get("score")});
+			loadGame();
+			// Q.clearStages();
+			// Q.state.reset({ drone_delivered: 0, health: 100, score: 0, name: Q.state.get("name")});
+			// Q.stageScene('level1');
+		})
+	});	
 };

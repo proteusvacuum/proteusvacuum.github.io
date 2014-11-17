@@ -28,10 +28,28 @@ Quintus.GameFunctions = function(Q){
 		);
 	};
 
-	Q.addText = function (label, timeout) {
+	Q.setScoreBoard = function(scores){
+		console.log(scores);
+		var label = "";
+		scores.forEach(function(score){
+			label = label + "\n" + score.name + " " + -1 * score.score;
+		});
+
+		var text = new Q.UI.Text({
+			label: label,
+			x: 50,
+			y: 50
+		})
+		Q.stage(0).insert(text);
+	}
+
+	Q.addText = function (label, timeout, stage) {
 
 		if (timeout === undefined){
 			var timeout = 1000;
+		};
+		if (stage === undefined){
+			var stage = 1;
 		}
 
 		var text = new Q.UI.Text({
@@ -47,7 +65,7 @@ Quintus.GameFunctions = function(Q){
 			text.destroy();
 		}, timeout);
 
-		Q.stage(1).insert(text);
+		Q.stage(stage).insert(text);
 
 		text.animate({y:text.p.y-200});
 	};

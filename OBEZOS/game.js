@@ -1,8 +1,7 @@
 window.addEventListener("load",function() {
 loadGame();
 
-function loadGame() {
-
+function loadGame() {	
 	var Q = window.Q = Quintus({ development: true })
 		.include("Sprites, Scenes, Input, 2D, Anim, Touch, UI, Audio")
 		.include("GameComponents, GameSprites, GameScenes, GameFunctions")
@@ -11,8 +10,8 @@ function loadGame() {
 			height: 700
 		})
 		.controls()
-		.touch()
-		.enableSound();
+		.touch();
+		// .enableSound();
 	
 	Q.SPRITE_DUDE = 2;
 	Q.SPRITE_BULLET = 3;
@@ -34,11 +33,13 @@ function loadGame() {
 		Q.compileSheets("box.png", "box.json");
 		// Or from a .json asset that defines sprite locations
 		Q.compileSheets("postman_sprite.png","sprites.json");
-		Q.state.reset({ drone_delivered: 0, health: 100, score: 0});
+		Q.state.reset({ drone_delivered: 0, health: 100, score: 0, name: 'AAA', hiScores: [] });
 		// Finally, call stageScene to run the game
 		Q.stageScene("start");
 	});
 	Q.load("music.mp3, fire.mp3, laugh.mp3, explode.mp3, coin.mp3, ouch.mp3");
+
+	Q.scoreBoard = new Firebase("https://sizzling-inferno-4284.firebaseio.com/");
 }
 
 });
