@@ -3,7 +3,7 @@
  "image":"images/farid.png",
  "info":{
             "title":"Hello! My name is Farid...",
-            "subhead":"I'm a web developer, hacker, musician, and electrical engineer. I'm do stuff on computers, and sometimes in meatspace.",
+            "subhead":"I'm a web developer, hacker, musician, and electrical engineer. I do stuff on computers, and sometimes in meatspace.",
             "text":"<div><p>I have a strong belief that technology can have a positive impact on society, and I am particularly concerned with using technology in a socially just, civic manner.<p>I currently spend my days as a software developer at <a href='http://www.provender.com' target='_blank'>Provender</a>, where we are creating an online platform to remake the path from the farmer's field to professional kitchens. I currently also work as a digital artist, musician, and journalist after spending three years as a professional bicycle mechanic.</p><p>I spend my nights doing other things that you probably don't want to know about. Sometimes, I blog <a href='/'>here</a>.</p><p>You can contact me at the links below.</a></div>",
             "avatar":"./images/lightsuit.jpg"
           },
@@ -21,7 +21,7 @@
             "avatar":"./images/KGS.jpg"
           }
 
-        },       
+        },
         {
           "name":"IB (France)",
           "info":{
@@ -31,7 +31,7 @@
             "avatar":"./images/ASP.jpg"
           }
 
-        },      
+        },
         {
           "name":"B.Eng (Hons.)",
           "info":{
@@ -88,7 +88,7 @@
             "subhead":"Developer, co-designer, and web editor for the website for <a href = 'http://silomontreal.com' target='_blank'>Silo Magazine</a>.",
             "text":"<a href = 'http://silomontreal.com' target='_blank'><img src='./images/silo.png' width='300px'></img></a>",
             "avatar":"./images/silo.png"
-          } 
+          }
         },
         {
           "name":"Timelines",
@@ -97,10 +97,10 @@
             "subhead":"A JavaScript/JQuery timeline generator.",
             "text":"This tool takes a Google Drive Spreadsheet and converts it into an interactive timeline which you can easily embed in any web project. <p>Get the code <a href = 'https://github.com/proteusvacuum/newsie-timeline' target='_blank'>here </a><p>An example can be found <a href='http://timeline.faridrener.com'>here</a>.<p><img src='./images/timeline.png' width='300px'></img>",
             "avatar":"./images/timeline.png"
-          } 
-        }       
+          }
+        }
       ]
-    },    
+    },
     {
       "name":"Writing & Journalism",
       "image":"./images/pen.png",
@@ -113,7 +113,7 @@
             "text":"I also wrote arts & culture, and science & technology pieces, produced and hosted radio discussions about current events in collaboration with <a href ='http://ckut.ca' target='_blank'>CKUT</a>, and wrote a bi-weekly satirical column about bikes, love, and bike-love.<p>Selected clips:<ul><li><a href='http://www.mcgilldaily.com/2013/03/medical-resident-says-he-was-punished-for-standing-up-for-patients/' target='_blank'>Medical resident says he was punished for standing up for patients</a> (March 23, 2013)</li><li>Radio: <a href='http://www.mcgilldaily.com/2013/03/the-mcgill-daily-and-ckut-present-an-alternative-summit-on-higher-education/' target='_blank'>An alternative summit on higher education</a> (March 15,2013)</li><li><a href='http://www.mcgilldaily.com/2013/02/library-reference-section-to-be-downsized/' target='_blank'>Library reference section to be downsized</a> (February 28, 2013)</li><li><a href='http://www.mcgilldaily.com/2013/02/physics-survey-highlights-sexism-among-students/' target='_blank'>Physics survey highlights sexism among students</a>&nbsp;(February 11, 2013, with Lola Duffort)</li><li><a href='http://www.mcgilldaily.com/2013/01/uqam-students-fight-increased-surveillance/' target='_blank'>UQAM students fight increased surveillance</a>&nbsp;(January 31, 2013)</li></ul>A full list of clips can be found <a href='http://www.mcgilldaily.com/author/faridrener/' target='_blank'>here</a>.",
             "avatar":"./images/DailyLogo.gif"
             }
-        },  
+        },
         {
           "name":"Maisonneuve",
             "info":{
@@ -158,9 +158,9 @@
             "text":"<img src='./images/floodphoto.jpg' width='300px'></img>",
             "avatar":"./images/cbcnews.png"
             }
-        }                  
+        }
       ]
-    },     
+    },
     {
       "name":"Music",
       "image":"./images/music.png",
@@ -201,7 +201,7 @@
             "text":"<iframe style='border: 0; width: 100%; height: 42px;' src='http://bandcamp.com/EmbeddedPlayer/album=953924207/size=small/bgcol=ffffff/linkcol=333333/transparent=true/' seamless><a href='http://thehoofandtheheel.bandcamp.com/album/and-all-the-tigers'>And All The Tigers by The Hoof &amp; The Heel</a></iframe>",
             "avatar":"./images/hoof.jpg"
           }
-        }        
+        }
       ]
     },
     {
@@ -243,7 +243,7 @@
             "text":"<p>!!AUFBAU!!</p> <object width='400' height='300'> <param name='flashvars' value='offsite=true&lang=en-us&page_show_url=%2Fphotos%2Ffaridrener%2Fsets%2F72157627857890895%2Fshow%2Fwith%2F6281135390%2F&page_show_back_url=%2Fphotos%2Ffaridrener%2Fsets%2F72157627857890895%2Fwith%2F6281135390%2F&set_id=72157627857890895&jump_to=6281135390'></param> <param name='movie' value='http://www.flickr.com/apps/slideshow/show.swf?v=124984'></param> <param name='allowFullScreen' value='true'></param><embed type='application/x-shockwave-flash' src='http://www.flickr.com/apps/slideshow/show.swf?v=124984' allowFullScreen='true' flashvars='offsite=true&lang=en-us&page_show_url=%2Fphotos%2Ffaridrener%2Fsets%2F72157627857890895%2Fshow%2Fwith%2F6281135390%2F&page_show_back_url=%2Fphotos%2Ffaridrener%2Fsets%2F72157627857890895%2Fwith%2F6281135390%2F&set_id=72157627857890895&jump_to=6281135390' width='400' height='300'></embed></object> <p>Syzygy</p><object width='400' height='300'> <param name='flashvars' value='offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fcodyscharfe%2Fsets%2F72157625946015059%2Fshow%2Fwith%2F5452016991%2F&page_show_back_url=%2Fphotos%2Fcodyscharfe%2Fsets%2F72157625946015059%2Fwith%2F5452016991%2F&set_id=72157625946015059&jump_to=5452016991'></param> <param name='movie' value='http://www.flickr.com/apps/slideshow/show.swf?v=124984'></param> <param name='allowFullScreen' value='true'></param><embed type='application/x-shockwave-flash' src='http://www.flickr.com/apps/slideshow/show.swf?v=124984' allowFullScreen='true' flashvars='offsite=true&lang=en-us&page_show_url=%2Fphotos%2Fcodyscharfe%2Fsets%2F72157625946015059%2Fshow%2Fwith%2F5452016991%2F&page_show_back_url=%2Fphotos%2Fcodyscharfe%2Fsets%2F72157625946015059%2Fwith%2F5452016991%2F&set_id=72157625946015059&jump_to=5452016991' width='400' height='300'></embed></object>",
             "avatar":"./images/syzygy.jpg"
           }
-        }       
+        }
       ]
     },
         {
@@ -258,7 +258,7 @@
             "text":"This research-creation project aimed to investigate the qualities, biases, and benefits inherent in specific contemporary technological modes of creation; <li>I researched the uses of sensors in architecture and created a critical framework to unpack the nature of the effects this technology had on both the experience of architecture and the creative process;<li> To this end, created interactive simulations in Processing and the xBox Kinect in order to model the 'methodologies of our time', and provide insight into the ways new technologies are transforming the creative process.<p><b>Technical skills:</b><li> In-depth knowledge of cutting-edge sensor systems and their potential uses in architecture and other creative endeavours;<li> 3-D graphics and visualization coding in Processing;<li> DSP algorithms to analyze input data from Kinect;<li> Ability to analyse the greater importance of the tools and systems used.",
             "avatar":"./images/FARMM.jpg"
           }
-        },       
+        },
        {
           "name":"HCI",
           "info":{
@@ -276,7 +276,7 @@
             "text":"Built an electronic device to work inside an fMRI machine (no metal or magnets) to stimulate a forefinger for an experiment to understand the functioning of the brain when a forefinger is stimulated. This required a custom-built digital-to-analogue converter with a parallel port interface that sent messages to an ultrasonic motor.",
             "avatar":"./images/SRE.png"
           }
-        }                  
+        }
       ]
     },
 {
@@ -309,7 +309,7 @@
             "text":"I was an active participant in the day-to-day running of The Flat Bike collective, one of Montreal's most used bike collectives, where people are empowered with tools and knowledge to fix their own bicycles. I gave weekly workshops on bicycle mechanics, both to volunteers and shop patrons, and volunteered as an “experienced mechanic” during shop open hours once a week. <p>Key projects:<ul><li>Collaboration with the Montreal Native Friendship centre, where youth came on the weekends to learn about bicycle mechanics<li>Creation of winter riding materials, with tips and tricks of how to brave Montreal's winters on two wheels. These are now sold at Fitz & Follwell.",
             "avatar":"./images/theflat.png"
           }
-        },         
+        },
         {
           "name":"AKES, Tajikistan",
           "info":{
@@ -322,6 +322,6 @@
 
 
       ]
-    }          
+    }
   ]
 }
