@@ -9,7 +9,7 @@ Yah. I play drumz.
 ### [DEBT](//debtmusic.bandcamp.com/) 
 {:.center}
 <div class="center">
-<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1179847270/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://debtmusic.bandcamp.com/album/dont-ruin-this-for-everyone">Don&#39;t Ruin This For Everyone by DEBT</a></iframe>
+<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1179847270/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://debtmusic.bandcamp.com/album/dont-ruin-this-for-everyone">Don&#39;t Ruin This For Everyone by DEBT</a></iframe>
 </div>
 
 ### [wind-up people](//winduppeople.bandcamp.com)
