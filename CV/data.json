@@ -3,8 +3,8 @@
  "image":"images/farid.png",
  "info":{
             "title":"Hello! My name is Farid...",
-            "subhead":"I'm a web developer, 'hacker', musician, and electrical engineer. I do stuff on computers, and sometimes in meatspace.",
-            "text":"<div><p>I have a strong belief that technology can have a positive impact on society, and I am particularly concerned with using technology in a socially just, civic manner.<p>I currently spend my days as a software developer at <a href='http://www.provender.com' target='_blank'>Provender</a>, where we are creating an online platform to remake the path from the farmer's field to professional kitchens. I currently also work as a digital artist, musician, and journalist after spending three years as a professional bicycle mechanic.</p><p>I spend my nights doing other things that you probably don't want to know about. Sometimes, I blog <a href='/'>here</a>.</p><p>You can contact me at the links below.</a></div>",
+            "subhead":"I'm a web developer, musician, and electrical engineer. I do stuff on computers, and sometimes in meatspace.",
+            "text":"<div><p>I have a strong belief that technology can have a positive impact on society, and I am particularly concerned with using technology in a socially just, civic manner.<p>I currently spend my days as senior developer at <a href='http://www.provender.com' target='_blank'>Provender</a>, where we are creating an online platform to remake the path from the farmer's field to professional kitchens. I currently also work as a digital artist, musician, and journalist after spending three years as a professional bicycle mechanic.</p><p>I spend my nights doing other things that you probably don't care about. Sometimes, I blog <a href='/'>here</a>.</p><p>You can contact me at the links below. <p>Download a pdf version of my CV <a href='../assets/downloads/farid_rener_cv.pdf'>here</a></p></div>",
             "avatar":"./images/lightsuit.jpg"
           },
  "children": [
@@ -36,8 +36,8 @@
           "name":"B.Eng (Hons.)",
           "info":{
             "title":"McGill University (2006-2011)",
-            "subhead":"Bachelor of Electrical Engineering (Honours). <br>Minor in Musical Science and Technology.<br>CGPA 3.6",
-            "text":"Specialization: Digital signal processing, human-computer interaction.<p>My honours thesis is entitled<i> Engineering for Social & Environmental Justice: A Design Framework towards a Sustainable Engineering.</i><p>I was on the board of directors of the <a href='http://www.qpirgmcgill.org' target='_blank'>Quebec Public Interest Research Group</a> (QPIRG), was a collective member and volunteer bicycle mechanic at <a href='http://theflat.wordpress.com' target='_blank'>The Flat Bike Collective</a>. I contributed news and culture programming on the radio at <a href='http://ckut.ca' target='_blank'>CKUT</a>, and I wrote news for <a href ='http://mcgilldaily.com' target='_blank'>The McGill Daily</a>",
+            "subhead":"Bachelor of Electrical Engineering (Honours). <br>Minor in Musical Science and Technology.<br>CGPA 3.61",
+            "text":"Specialization: Digital signal processing, human-computer interaction.<p>My honours thesis: <i><a href='../assets/downloads/thesis.pdf'>Engineering for Social & Environmental Justice: A Design Framework towards a Sustainable Engineering.</a></i><p>I was on the board of directors of the <a href='http://www.qpirgmcgill.org' target='_blank'>Quebec Public Interest Research Group</a> (QPIRG), was a collective member and volunteer bicycle mechanic at <a href='http://theflat.wordpress.com' target='_blank'>The Flat Bike Collective</a>. I contributed news and culture programming on the radio at <a href='http://ckut.ca' target='_blank'>CKUT</a>, and I wrote news for <a href ='http://mcgilldaily.com' target='_blank'>The McGill Daily</a>",
             "avatar":"http://upload.wikimedia.org/wikipedia/en/thumb/2/29/McGill_University_CoA.svg/160px-McGill_University_CoA.svg.png"
           }
 
@@ -58,29 +58,38 @@
       "image":"./images/globe.png",
       "info":{
             "title":"Web",
-            "subhead":"I build beautiful, functional websites, and interactive infographics (like this one!).",
-            "text":"I am the lead front-end developer at <a href='http://provender.com' target='_blank'>Provender</a>. <p>I have an in-depth knowledge of front- and back-end technologies, and am skilled in: Backbone.js, Marionette.js, Ruby on Rails, Python, Coffeescript, JavaScript, JQuery, d3.js, PHP, HTML/CSS, Wordpress, &amp;c.",
+            "subhead":"I build beautiful, functional websites, webapps, and interactive infographics (like this one!).",
+            "text":"I am senior developer at <a href='http://provender.com' target='_blank'>Provender</a>. <p>I have an in-depth knowledge of front- and back-end technologies, and am skilled in: Backbone.js, Marionette.js, Ruby on Rails, Python, Coffeescript, JavaScript, jQuery, d3.js, PHP, HTML/CSS, Wordpress, Quintus.js &amp;c.",
             "avatar":""
           },
       "children":[
         {
           "name":"Provender",
           "info":{
-            "title":"<a href = 'http://provender.com' target='_blank'>Provender</a> (Ongoing)",
+            "title":"<a href = 'http://provender.com' target='_blank'>Provender</a> (2013–Present)",
             "subhead":"Provender is leveraging advances in technology and connectivity to remake the path from farmer’s field to professional kitchen, offering new ways for farmers to access markets, reduce waste, and improve sustainability, and creating new channels for food service providers to purchase and discover fresh, local produce.",
-            "text":"I am the lead front-end developer at Provender, where a large portion of my day is spent doing user-experience and interaction design.<p>In two months, I rebuilt the whole of Provender's marketplace in Backbone.js using an iterative design process that meticulously took real user experiences into account.",
+            "text":"I am senior developer at Provender working across the stack. Over the last year I, among other things: <ul><li>Re-designed and re-built the whole of Provender's marketplace in Backbone.js using an iterative design process that meticulously took real user experiences into account.</li><li>Designed and built a full-suite of farmside tools</li><li>Implemented complex business logic in Ruby to create two-sided personalized marketplaces for farms and restaurants which incorporated location and schedule information</li><li>Implemented multi-faceted product search with Elasticsearch</li><li>Created training materials and documentation for internal and external use</li><li>Responded to technical support queries from farmers and other non-technical users</li></ul></p><p>Some of the technologies I use at Provender include: PostgreSQL, PostGIS, Ruby on Rails, Elasticsearch, Backbone.js, ZURB Foundation, Rspec, Mocha, Coffeescript, Ruby;</p>",
             "avatar":"./images/provenderlogo.png"
           }
         },
         {
-          "name":"A Time to Swim",
+          "name":"OBEZOS",
           "info":{
-            "title":"<a href = 'http://atimetoswim.com' target='_blank'>A Time to Swim</a> (2013)",
-            "subhead":"Website for the movie <i><a href = 'http://atimetoswim.com' target='_blank'>A Time to Swim</a></i>, which is currently in preproduction",
-            "text":"<a href = 'http://atimetoswim.com' target='_blank'><img src='./images/timetoswim.png' width='300px'></img></a>",
-            "avatar":"./images/timetoswim.png"
+            "title":"<a href = '../OBEZOS' target='_blank'>OBEZOS</a> (2014)",
+            "subhead":"In this EPIC game, you are an embattled postal worker, tasked with destroying the Amazonia drones that are quickly taking all of your work!",
+            "text":"<p>I built this game soon after Amazon announced they were doing <a href='https://www.youtube.com/watch?v=98BIu9dpwHU'>experiments</a> with home drone delivery. At the same time, Canada Post announced it would be <a href='http://www.cbc.ca/news/canada/ottawa/canada-post-to-phase-out-urban-home-mail-delivery-1.2459618'>phasing out</a> home delivery of mail.</p><p>Shoot down the drones, collect the packages. You can't win. OBEZOS.</p><p>Fork the code <a href='https://github.com/proteusvacuum/OBEZOS'>here</a>.</p><p><a href = '../OBEZOS' target='_blank'>Play the game</a> (turn up your speakers…).</p><p>There is a modified version of the game <a href='http://ometos.rocks' target='_blank'>here</a> that I made as a leaving present when one of my co-workers left Provender</p>",
+            "avatar":"./images/OBEZOS.png"
           }
         },
+        {
+          "name":"GrowFoodTech",
+          "info":{
+            "title":"<a href = 'http://growfoodtech.ca' target='_blank'>Grow Food Tech</a> (2014)",
+            "subhead":"Developer, co-designer, implementer.",
+            "text":"<p>Adapted Union Square Ventures' open-source <em>The Conversation</em> app to be used for hosting discussions on the food & technology. This project is still in it's nascent phase.</p><p>I added a full suite of user management tools using Python, MongoDB, and the Tornado framework to better curate the conversation.</p>",
+            "avatar":"./images/growfoodtechlogo.png"
+          }
+        },        
         {
           "name":"Silo",
           "info":{
@@ -95,7 +104,7 @@
           "info":{
             "title":"<a href = 'http://https://github.com/proteusvacuum/newsie-timeline' target='_blank'>Interactive Timeline Generator</a> (2013)",
             "subhead":"A JavaScript/JQuery timeline generator.",
-            "text":"This tool takes a Google Drive Spreadsheet and converts it into an interactive timeline which you can easily embed in any web project. <p>Get the code <a href = 'https://github.com/proteusvacuum/newsie-timeline' target='_blank'>here </a><p>An example can be found <a href='http://timeline.faridrener.com'>here</a>.<p><img src='./images/timeline.png' width='300px'></img>",
+            "text":"This tool takes a Google Drive Spreadsheet and converts it into an interactive timeline which you can easily embed in any web project. <p>Get the code <a href = 'https://github.com/proteusvacuum/newsie-timeline' target='_blank'>here </a>.<p><img src='./images/timeline.png' width='300px'></img>",
             "avatar":"./images/timeline.png"
           }
         }
@@ -263,7 +272,7 @@
           "name":"HCI",
           "info":{
             "title":"Shared Reality Environment Lab (2009)",
-            "subhead":"A mobile interface for blind and visually impaired individuals using spatialized sound. With Prof. Jeremy Cooperstock.",
+            "subhead":"With Prof. Jeremy Cooperstock.",
             "text":"<li>Built preliminary models of a human-computer interface that used textured surfaces to allow for 'scratching' and 'sliding' motions on an interactive floor.<li>Built a physical model with high-precision CNC;<li>Using sound signals and DSP algorithms, created a mock-up interaction device that could be used to sense 'shuffling' and 'foot-dragging' on the NIW floor. <li>This project required in-depth knowledge of Matlab and DSP algorithms.",
             "avatar":"./images/SRE.png"
           }

@@ -180,7 +180,9 @@ function updateInfo(x){
 
   var infoUpdate = infoData.transition().duration(duration/2).style("opacity","0");
   infoUpdate.each("end",function(){
-  infoData.select(".infoAvatar").html(function(d){return "<img src="+d.avatar+"></img>"});
+  infoData.select(".infoAvatar").html(function(d){
+    if (d.avatar.length > 0) return "<img src="+d.avatar+"></img>";
+  });
   infoData.select(".infoTitle").html(function(d){return d.title});
   infoData.select(".infoSubhead").html(function(d){return d.subhead});
   infoData.select(".infoText").html(function(d){return d.text});
