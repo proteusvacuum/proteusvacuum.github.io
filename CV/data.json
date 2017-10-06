@@ -4,7 +4,7 @@
     "info": {
         "title": "Hello! My name is Farid",
         "subhead": "I'm a web developer, musician, and electrical engineer. I do stuff on computers, and sometimes in meatspace.",
-        "text": "<div><p>I have a strong belief that technology can have a positive impact on society, and I am particularly concerned with using technology in a socially just, civic manner.<p>I currently spend my days as senior developer at <a href='http://www.dimagi.com' target='_blank'>Dimagi</a>, where we are building an open-source mobile platform for frontline health workers in low-resource settings, that allows anyone to build mobile applications to use for data collection.</p><p>I spend my nights doing other things that you probably don't care about. Sometimes, I blog <a href='/'>here</a>.</p><p>You can contact me at the links below. <p>Download a pdf version of my CV <a href='../assets/downloads/farid_rener_cv.pdf'>here</a></p></div>",
+        "text": "<div><p>I have a strong belief that technology can have a positive impact on society, and I am particularly concerned with using technology in a socially just, civic manner.<p>I currently spend my days as senior developer at <a href='http://www.dimagi.com' target='_blank'>Dimagi</a>, where we are building an open-source mobile platform for frontline health workers in low-resource settings, that allows anyone to build mobile applications to use for data collection.</p><p>I spend my nights doing other things that you probably don't care about. Sometimes, I blog <a href='/'>here</a>.</p><p>You can contact me at the links below. <p>Download a pdf version of my CV <a href='../assets/downloads/farid_rener_cv_2017.pdf'>here</a></p></div>",
         "avatar": "./images/lightsuit.jpg"
     },
     "children": [
