@@ -4,7 +4,7 @@
     "info": {
         "title": "Hello! My name is Farid",
         "subhead": "I'm a web developer, musician, and electrical engineer. I do stuff on computers, and sometimes in meatspace.",
-        "text": "<div><p>I have a strong belief that technology can have a positive impact on society, and I am particularly concerned with using technology in a socially just, civic manner.<p>I currently spend my days as senior developer at <a href='http://www.provender.com' target='_blank'>Provender</a>, where we are creating an online platform to remake the path from the farmer's field to professional kitchens. I currently also work as a digital artist, musician, and journalist after spending three years as a professional bicycle mechanic.</p><p>I spend my nights doing other things that you probably don't care about. Sometimes, I blog <a href='/'>here</a>.</p><p>You can contact me at the links below. <p>Download a pdf version of my CV <a href='../assets/downloads/farid_rener_cv.pdf'>here</a></p></div>",
+        "text": "<div><p>I have a strong belief that technology can have a positive impact on society, and I am particularly concerned with using technology in a socially just, civic manner.<p>I currently spend my days as senior developer at <a href='http://www.dimagi.com' target='_blank'>Dimagi</a>, where we are building an open-source mobile platform for frontline health workers in low-resource settings, that allows anyone to build mobile applications to use for data collection.</p><p>I spend my nights doing other things that you probably don't care about. Sometimes, I blog <a href='/'>here</a>.</p><p>You can contact me at the links below. <p>Download a pdf version of my CV <a href='../assets/downloads/farid_rener_cv.pdf'>here</a></p></div>",
         "avatar": "./images/lightsuit.jpg"
     },
     "children": [
@@ -55,15 +55,24 @@
             "image": "./images/globe.png",
             "info": {
                 "title": "Web",
-                "subhead": "I build beautiful, functional websites, webapps, and interactive infographics (like this one!).",
-                "text": "I am senior developer at <a href='http://provender.com' target='_blank'>Provender</a>. <p>I have an in-depth knowledge of front- and back-end technologies, and am skilled in: Backbone.js, Marionette.js, Ruby on Rails, Python, Coffeescript, JavaScript, jQuery, d3.js, PHP, HTML/CSS, Wordpress, Quintus.js &amp;c.",
+                "subhead": "I spend most of my time as a backend developer, but I can also build beautiful, functional websites, webapps, and interactive infographics (like this one!).",
+                "text": "I am senior engineer at <a href='http://dimagi.com' target='_blank'>Dimagi</a>. <p>I have an in-depth knowledge of front- and back-end technologies, and am skilled in: Python, Django, JavaScript, Knockout.jso, Backbone.js/Marionette.js, Ruby on Rails, jQuery, d3.js, PHP, HTML/CSS, XML, Wordpress, Quintus.js &amp;c.",
                 "avatar": ""
             },
             "children": [
                 {
+                    "name": "Dimagi",
+                    "info": {
+                        "title": "<a href = 'http://dimagi.com' target='_blank'>Dimagi</a> (2015–Present)",
+                        "subhead": "<p>Dimagi builds CommCare, an open-source mobile platform for frontline health workers in low-resource settings, that allows anyone to build mobile applications to use for data collection.</p><p>I worked on all levels of the core product, while playing a major role in Dimagi’s biggest project: eNikshay. All of the code I’ve written while at Dimagi is on <a href='https://github.com/dimagi/commcare-hq/pulls?q=is%3Apr+author%3Aproteusvacuum+is%3Aclosed+sort%3Acomments-desc' target='_blank'>Github.</p>",
+                        "text": "<h2>eNikshay Project</h2><p>National-scale project funded by the Gates Foundation to digitize all tuberculosis workflows across India. I lead the systems integration team, act as tech-team liaison and built a major portion of the applications that will soon be used to track all TB patients in India.</p><ul><li>Designed, specced, and built system integrations to connect CommCare with multiple external systems, including (undocumented) government databases. I currently lead a team of four people at Dimagi to build and support our side;</li><li>Built, along with Dimagi’s CTO, mobile and web applications that manage treatment protocols, drug adherence, contact tracing, and drug and test vouchers across India’s public and private healthcare sectors for TB patients;</li><li>Oversaw the design and implementation of reports in use by government employees at all levels of the Indian government;</li><li>Acted as team liaison between the technical and non-technical teams. Translated non-technical requirements into technical specifications. Attended meetings with the Gates Foundation and government ministers;</li><li>Worked on multiple performance improvements to Dimagi’s core platform;</li></ul></p><h2>Product Ownership Areas</h2><ul><li>Case Search: Designed and built a system using Elasticsearch to index a user’s unstructured data, that allows users to to add arbitrary search parameters to their applications;</li><li>Extension case sync algorithms: Designed and implemented a new sync algorithm for phone data;</li><li>MOTECH data integration hub: Designed and helped create the business case around a framework that allows users to integrate CommCare with other popular mHealth applications.</li>",
+                        "avatar": "./images/dimagilogo.png"
+                    }
+                },
+                {
                     "name": "Provender",
                     "info": {
-                        "title": "<a href = 'http://provender.com' target='_blank'>Provender</a> (2013–Present)",
+                        "title": "<a href = 'http://provender.com' target='_blank'>Provender</a> (2013–2015)",
                         "subhead": "Provender is leveraging advances in technology and connectivity to remake the path from farmer’s field to professional kitchen, offering new ways for farmers to access markets, reduce waste, and improve sustainability, and creating new channels for food service providers to purchase and discover fresh, local produce.",
                         "text": "I am senior developer at Provender working across the stack. Over the last year I, among other things: <ul><li>Re-designed and re-built the whole of Provender's marketplace in Backbone.js using an iterative design process that meticulously took real user experiences into account.</li><li>Designed and built a full-suite of farmside tools</li><li>Implemented complex business logic in Ruby to create two-sided personalized marketplaces for farms and restaurants which incorporated location and schedule information</li><li>Implemented multi-faceted product search with Elasticsearch</li><li>Created training materials and documentation for internal and external use</li><li>Responded to technical support queries from farmers and other non-technical users</li></ul></p><p>Some of the technologies I use at Provender include: PostgreSQL, PostGIS, Ruby on Rails, Elasticsearch, Backbone.js, ZURB Foundation, Rspec, Mocha, Coffeescript, Ruby;</p>",
                         "avatar": "./images/provenderlogo.png"
