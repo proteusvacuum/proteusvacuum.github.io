@@ -46,8 +46,7 @@ $ MotionPro
 Click "Profile" then "Add".
 Fill out the settings as per your specific VPN setup.
 
-Verify everything worked.
-
+### Verify everything worked.
 ```sh
 $ ping www.google.com
 $ ping {machine on your vpn}
