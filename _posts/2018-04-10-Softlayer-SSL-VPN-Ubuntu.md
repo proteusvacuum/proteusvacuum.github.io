@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Installing the Softlayer SSL VPN client on Ubuntu with systemd"
+date:   2018-04-10
+tag: code
+---
+
 # Installing the Softlayer SSL VPN client on Ubuntu with systemd
 
 At [Dimagi](https://www.dimagi.com), we were having trouble installing Softlayer's VPN client using the instructions on their [site](https://knowledgelayer.softlayer.com/procedure/ssl-vpn-linux), as there were issues with systemd not having an `rc.local` file by default. When trying to install the client, we got the error `"Auto start script file was not found in system!"`.
