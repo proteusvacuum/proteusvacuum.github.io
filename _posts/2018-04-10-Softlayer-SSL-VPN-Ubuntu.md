@@ -25,10 +25,11 @@ $ chmod +x MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh
 $ sudo ./MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh
 ```
 
+### Enable rc.local if needed
 ```sh
 # If you are using systemd, you might not have /etc/rc.local file, and you will get an error that says "Auto start script file was not found in system!"
 # Make an empty one. systemd will know what to do with it
-# https://askubuntu.com/a/919598
+# <https://askubuntu\.com/a/919598>
 
 $ printf '%s\n' '#!/bin/bash' 'exit 0' | sudo tee -a /etc/rc.local
 $ sudo chmod +x /etc/rc.local
@@ -37,8 +38,8 @@ $ sudo chmod +x /etc/rc.local
 $ sudo ./MotionPro_Linux_Ubuntu_x86-64_1.1.1.sh
 ```
 
+### Open the client
 ```sh
-# Open the client
 $ MotionPro
 ```
 
