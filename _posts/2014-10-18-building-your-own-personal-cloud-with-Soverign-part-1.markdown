@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building your own personal cloud with Sovereign (part 1)"
+title:  "Building your own personal cloud with Sovereign"
 date:   2014-10-18 21:23:48
 tag: code
 ---
