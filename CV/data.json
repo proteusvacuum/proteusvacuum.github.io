@@ -70,6 +70,15 @@
                     }
                 },
                 {
+                    "name": "required-labels",
+                    "info": {
+                        "title": "<a href = 'https://github.com/dimagi/required-labels' target='_blank'>GitHub Required Labels</a>",
+                        "subhead": "A Foolproof System for Communicating Changes Deployed to Your Software Product!",
+                        "text": "<p>required-labels enforces label rules on your pull requests. We use this at Dimagi to alert our product and design teams of external-facing changes we are making to our code.</p><p>Me and a co-worker built this during a hackathon and we wrote about it here <a href='https://www.dimagi.com/blog/designing-a-foolproof-system-for-communicating-changes-made-to-your-software-product/'>here</a></p><p>Built as a very simple flask service, this webhook ensures that every pull request fulfills specific label requirements.",
+                        "avatar": ""
+                    }
+                },
+                {
                     "name": "Provender",
                     "info": {
                         "title": "<a href = 'http://provender.com' target='_blank'>Provender</a> (2013–2015)",
@@ -92,7 +101,7 @@
                     "info": {
                         "title": "<a href = 'http://growfoodtech.ca' target='_blank'>Grow Food Tech</a> (2014)",
                         "subhead": "Developer, co-designer, implementer.",
-                        "text": "<p>Adapted Union Square Ventures' open-source <em>The Conversation</em> app to be used for hosting discussions on the food & technology. This project is still in it's nascent phase.</p><p>I added a full suite of user management tools using Python, MongoDB, and the Tornado framework to better curate the conversation.</p>",
+                        "text": "<p>Adapted Union Square Ventures' open-source <em>The Conversation</em> app to be used for hosting discussions on food & technology. This project is still in its nascent phase.</p><p>I added a full suite of user management tools using Python, MongoDB, and the Tornado framework to better curate the conversation.</p>",
                         "avatar": "./images/growfoodtechlogo.png"
                     }
                 },
@@ -108,7 +117,7 @@
                 {
                     "name": "Timelines",
                     "info": {
-                        "title": "<a href = 'http://https://github.com/proteusvacuum/newsie-timeline' target='_blank'>Interactive Timeline Generator</a> (2013)",
+                        "title": "<a href = 'https://github.com/proteusvacuum/newsie-timeline' target='_blank'>Interactive Timeline Generator</a> (2013)",
                         "subhead": "A JavaScript/JQuery timeline generator.",
                         "text": "This tool takes a Google Drive Spreadsheet and converts it into an interactive timeline which you can easily embed in any web project. <p>Get the code <a href = 'https://github.com/proteusvacuum/newsie-timeline' target='_blank'>here </a>.<p><img src='./images/timeline.png' width='300px'></img>",
                         "avatar": "./images/timeline.png"
