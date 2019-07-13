@@ -1,13 +1,10 @@
 # Site settings
 title: "{farid rener}"
 email: faridrener at gmail dot com
-description: > # this means to ignore newlines until "baseurl:"
-  Tech, the world, and how they aren't always working for each other. Excuse the puns. 
+description: A collection of Farid's notes with a scattering of food and ride reports.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.faridrener.com" # the base hostname & protocol for your site
-twitter_username: proteusvacuum
 github_username:  proteusvacuum
-keybase_username: provac
 
 # Build settings
 markdown: kramdown
