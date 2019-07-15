@@ -29,7 +29,7 @@ This part of the petit train du nord has a lot of memories - Myrill and I came h
 
 I finally made it to Val-David and found the house that Derek and Diane were renting which is at the end of a beautiful cul-de-sac with a view of only hills and trees from the back deck. 
 
-Derek plied my with delicious carbs, the best tasting apple juice ever and some more carbs. I played with Cassia and Leora for a bit. Derek did a bad thing and told me he could drive me back to Montreal the next day if I wanted... It sounded pretty tempting at that point, but I declined, I was a sweaty smelly mess and I kind of wanted to stay that way.
+Derek plied me with delicious carbs, the best tasting apple juice ever and some more carbs. I played with Cassia and Leora for a bit. Derek did a bad thing and told me he could drive me back to Montreal the next day if I wanted... It sounded pretty tempting at that point, but I declined, I was a sweaty smelly mess and I kind of wanted to stay that way.
 
 We got the girls ready to go riding and stuck Leora in the trailer. That's when I discovered that my saddle was almost no longer attached to my bike. Aha! So that's where the squeaking had been coming from all that time. I tighened it back up, but my seat post has probably the worst saddle attachment I've ever seen, and it makes it impossible to make the saddle sit straight. I did my best.
 
