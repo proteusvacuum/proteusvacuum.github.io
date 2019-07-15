@@ -70,6 +70,8 @@ This was almost twice as far as I'd ever ridden, and it felt like a real accompl
 - 1.5 glasses of delicious Quebec apple juice
 
 ### Solids
+- 1 bowl steel-cut oats with maple syrup
+- 1 banana
 - 1 bowl of pasta that Derek made me
 - 2 Cliff bars
 - 6 ice cubes 
