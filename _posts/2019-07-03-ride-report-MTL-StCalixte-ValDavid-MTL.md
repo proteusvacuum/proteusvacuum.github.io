@@ -5,6 +5,8 @@ date:   2019-07-03
 tag: ride-report
 ---
 
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2502443656/embed/f47d85f5290f0a36b637eb1836365340d1192026'></iframe>
+
 [Strava Link](https://www.strava.com/activities/2502443656)
 
 At 235km, this was my longest ride yet. Since I've been riding much more this past year, it's been fun to push myself and see just how far I can go. I've started enjoying the much longer rides; 8-9 hours in the saddle gets me to that specific type of zen that is hard to get to otherwise. Also, I was following the Tour Divide a bit closer this year, and watching the racers pull 2-300KM days in the mountains was so inspiring.
