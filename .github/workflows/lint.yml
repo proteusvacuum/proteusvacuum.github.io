@@ -1,0 +1,7 @@
+name: Lint
+on: push
+jobs:
+  checkout-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
