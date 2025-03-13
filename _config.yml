@@ -8,9 +8,8 @@ github_username:  proteusvacuum
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 kramdown:
   input: GFM
-  enable_coderay: true
-  coderay:
-    coderay_line_numbers:
+  syntax_highlighter: rouge
+  math_engine: mathjax
