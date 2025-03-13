@@ -12,3 +12,6 @@ highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
   math_engine: mathjax
+
+plugins:
+  - jekyll-gfm-admonitions
