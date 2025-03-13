@@ -155,7 +155,7 @@ You can also buy a key from somewhere. I'll let you figure that out. When you re
 If you are sent a zip file with multiple keys, copy and paste the intermediate and root certificate into one file and save it as `roles/common/files/wildcard_ca.pem`. Make sure to put a line break between each certificate in this file. 
 
 ## 5. Set up all your usernames / passwords, etc.
-Open `vars/user.yml` in a text editor. Fill out all the elements that read *TODO*. Don't change the things in {{}} as these are placeholders. If you don't know what something does, go read the sovereign readme before continuing.
+Open `vars/user.yml` in a text editor. Fill out all the elements that read *TODO*. Don't change the things in {% raw %}{{}}{% endraw %} as these are placeholders. If you don't know what something does, go read the sovereign readme before continuing.
 
 To generate the password hashes for email and IRC, follow the instructions in the sovereign [readme][45]. These are important to get right, otherwise you won't be able to log in to your email. 
 
