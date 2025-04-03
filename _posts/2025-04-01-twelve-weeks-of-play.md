@@ -2,7 +2,7 @@
 layout: post
 title: Twelve weeks of play
 date: 2025-04-01
-tag: recurse
+tags: recurse
 ---
 I just finished my three month stint at the [Recurse Center](https://www.recurse.com) (RC), which I can safely say was one of the most personally fulfilling and joyful experiences I've had in a long time. RC is a place where you work at the edge of your abilities, pair program with some extremely smart and caring people, take time for personal introspection and share your knowledge with each other by "learning generously". 
 
