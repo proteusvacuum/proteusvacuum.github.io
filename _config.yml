@@ -1,7 +1,7 @@
 # Site settings
-title: "{farid rener}"
+title: "Farid Rener"
 email: faridrener at gmail dot com
-description: A collection of Farid's notes with a scattering of food and ride reports.
+description: A collection of Farid's notes
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.faridrener.com" # the base hostname & protocol for your site
 github_username:  proteusvacuum

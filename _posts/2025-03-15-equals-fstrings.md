@@ -2,7 +2,7 @@
 layout: post
 title:  Python f-strings {expr=}
 date:   2025-03-15
-tag: recurse, til
+tag: til
 ---
 I've been learning rust recently, and have loved the ease of the `dbg!` macro which will print and return the value of a given expression, along with the file and line number of where it was called. Since it returns the value of the expression it can be used inline. 
 

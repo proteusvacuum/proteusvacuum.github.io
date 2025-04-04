@@ -2,7 +2,7 @@
 layout: post
 title: Redirecting Terminal Output
 date: 2025-03-16
-tag: recurse, til
+tag: til
 ---
 While reading about trying to get [Rust to run in a REPL](https://github.com/sigmaSd/IRust?tab=readme-ov-file#faq), I learned that you can send messages between terminals by redirecting to `/dev/pts/{num}`. 
 
