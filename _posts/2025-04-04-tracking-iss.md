@@ -169,7 +169,7 @@ I stuck all the electronic components to the back in a somewhat arbitrary manner
 
 #### Assembly
 
-![](/assets/images/PXL_20250404_161527666.MP.jpg)*The stepper motor horn attached to the base. Apparently using pencil led as a lubricant works very well on 3D printed plastic! You could instead just screw the horn into a piece of wood or other stable base*
+![](/assets/images/PXL_20250404_161527666.MP.jpg)*The stepper motor horn attached to the base. Apparently using pencil lead as a lubricant works very well on 3D printed plastic! You could instead just screw the horn into a piece of wood or other stable base*
 
 ![](/assets/images/PXL_20250404_161541297.MP.jpg) *Front view. Top of stepper motor should point north when tracker is turned on*
 
