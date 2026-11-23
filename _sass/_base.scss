@@ -148,12 +148,15 @@ blockquote {
 /**
  * Code formatting
  */
+$code-background: #f3f1ee;
+$code-border:     #e2ddd7;
+
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $code-border;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $code-background;
 }
 
 code {
@@ -161,14 +164,24 @@ code {
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
+    padding: 10px 14px;
+    overflow-x: auto;
+    border-left: 3px solid $brand-color;
 
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        background-color: transparent;
     }
+}
+
+// Opt-in wrapping for prose-like code blocks: put `{: .wrap}` on the line after the closing fence.
+.wrap pre,
+pre.wrap {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    overflow-x: auto;
 }
 
 

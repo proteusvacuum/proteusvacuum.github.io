@@ -3,3 +3,5 @@ _site
 _drafts
 .obsidian
 Gemfile.lock
+vendor
+.bundle

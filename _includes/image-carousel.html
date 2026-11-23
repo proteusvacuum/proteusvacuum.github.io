@@ -1,0 +1,132 @@
+{% comment %}
+  Captioned image carousel.
+
+  Usage in a post: one Markdown image per line, the alt text is the caption
+  (Markdown allowed in it):
+
+    {% capture mask %}
+    ![First caption](/assets/images/one.jpg)
+    ![Second *caption*](/assets/images/two.jpg)
+    {% endcapture %}
+    {% include image-carousel.html slides=mask %}
+
+  Lines that aren't images are ignored.
+  Optional params: height (CSS length for the image area, default 70vh)
+{% endcomment %}
+{% assign lines = include.slides | strip | newline_to_br | split: "<br />" %}
+{% assign height = include.height | default: "70vh" %}
+<div class="img-carousel" data-img-carousel style="--img-carousel-height: {{ height }}">
+  <div class="img-carousel__track" tabindex="0" aria-label="Image carousel, use arrow keys to navigate">
+    {% for raw in lines %}
+      {% assign line = raw | strip %}
+      {% assign head = line | slice: 0, 2 %}
+      {% unless head == "![" and line contains "](" %}{% continue %}{% endunless %}
+      {% assign tail = line | split: "](" | last %}
+      {% assign src_len = tail.size | minus: 1 %}
+      {% assign src = tail | slice: 0, src_len | strip %}
+      {% assign cap_len = line.size | minus: tail.size | minus: 4 %}
+      {% assign caption = line | slice: 2, cap_len | strip %}
+    <figure class="img-carousel__slide">
+      <img src="{{ src | relative_url }}" alt="{{ caption | markdownify | strip_html | strip | escape }}" loading="lazy" decoding="async">
+      {% if caption != "" %}<figcaption>{{ caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
+    </figure>
+    {% endfor %}
+  </div>
+  <div class="img-carousel__nav">
+    <button type="button" class="img-carousel__btn" data-dir="-1" aria-label="Previous image">&#8249;</button>
+    <span class="img-carousel__count" aria-live="polite"></span>
+    <button type="button" class="img-carousel__btn" data-dir="1" aria-label="Next image">&#8250;</button>
+  </div>
+</div>
+
+<style>
+.img-carousel { margin: 1.5rem 0; }
+.img-carousel__track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  outline: none;
+}
+.img-carousel__track::-webkit-scrollbar { display: none; }
+.img-carousel__track:focus-visible { box-shadow: 0 0 0 2px #9a1f24; }
+.img-carousel__slide {
+  flex: 0 0 100%;
+  margin: 0;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-carousel__slide img {
+  width: 100%;
+  height: var(--img-carousel-height);
+  max-height: 640px;
+  object-fit: contain;
+  background: rgba(0, 0, 0, 0.04);
+}
+.img-carousel__slide figcaption {
+  margin-top: 0.5rem;
+  padding: 0 1rem;
+  font-size: 0.9em;
+  color: #555;
+  text-align: center;
+  font-style: italic;
+}
+.img-carousel__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.img-carousel__btn {
+  font-size: 1.6rem;
+  line-height: 1;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+}
+.img-carousel__btn:hover { border-color: #9a1f24; color: #9a1f24; }
+.img-carousel__btn:disabled { opacity: 0.3; cursor: default; }
+.img-carousel__count { font-size: 0.85em; color: #828282; min-width: 3.5em; text-align: center; }
+</style>
+
+<script>
+(function () {
+  document.querySelectorAll('[data-img-carousel]:not([data-ready])').forEach(function (root) {
+    root.setAttribute('data-ready', '');
+    var track = root.querySelector('.img-carousel__track');
+    var slides = track.children;
+    var count = root.querySelector('.img-carousel__count');
+    var prev = root.querySelector('[data-dir="-1"]');
+    var next = root.querySelector('[data-dir="1"]');
+
+    function current() { return Math.round(track.scrollLeft / track.clientWidth); }
+    function go(i) {
+      i = Math.max(0, Math.min(slides.length - 1, i));
+      track.scrollTo({ left: i * track.clientWidth });
+    }
+    function update() {
+      var i = current();
+      count.textContent = (i + 1) + ' / ' + slides.length;
+      prev.disabled = i === 0;
+      next.disabled = i === slides.length - 1;
+    }
+
+    prev.addEventListener('click', function () { go(current() - 1); });
+    next.addEventListener('click', function () { go(current() + 1); });
+    track.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft') { e.preventDefault(); go(current() - 1); }
+      if (e.key === 'ArrowRight') { e.preventDefault(); go(current() + 1); }
+    });
+    track.addEventListener('scroll', function () { window.requestAnimationFrame(update); }, { passive: true });
+    update();
+  });
+})();
+</script>

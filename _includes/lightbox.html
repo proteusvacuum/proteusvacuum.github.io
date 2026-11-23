@@ -1,0 +1,142 @@
+{% comment %}
+  Click-to-fullscreen for every image in a post's content.
+  Included once from _layouts/post.html.
+  - Captions come from the image's <figcaption> (or its alt text).
+  - Images inside an image carousel can be stepped through with arrows.
+  - Images wrapped in a link are left alone, so the link still works.
+{% endcomment %}
+<dialog class="lightbox" aria-label="Image viewer">
+  <button type="button" class="lightbox__close" aria-label="Close">&times;</button>
+  <button type="button" class="lightbox__nav lightbox__nav--prev" aria-label="Previous image">&#8249;</button>
+  <figure class="lightbox__figure">
+    <img class="lightbox__img" alt="">
+    <video class="lightbox__img lightbox__video" autoplay loop muted playsinline hidden></video>
+    <figcaption class="lightbox__caption"></figcaption>
+  </figure>
+  <button type="button" class="lightbox__nav lightbox__nav--next" aria-label="Next image">&#8250;</button>
+</dialog>
+
+<style>
+.post-content img.lightbox-able { cursor: zoom-in; }
+.lightbox {
+  width: 100vw; height: 100vh;
+  max-width: 100vw; max-height: 100vh;
+  margin: 0; padding: 0; border: 0;
+  background: rgba(10, 10, 10, 0.94);
+  color: #eee;
+}
+.lightbox[open] { display: flex; align-items: center; justify-content: center; }
+.lightbox::backdrop { background: rgba(0, 0, 0, 0.6); }
+.lightbox__figure {
+  margin: 0;
+  display: flex; flex-direction: column; align-items: center;
+  width: calc(100vw - 7rem);
+}
+/* Fill the screen; overrides the site-wide `img { width: 300px }` in _base.scss. */
+.lightbox .lightbox__img {
+  width: 100%;
+  height: calc(100vh - 6rem);
+  max-width: none;
+  margin: 0;
+  object-fit: contain;
+  cursor: zoom-out;
+}
+.lightbox .lightbox__img[hidden] { display: none; }
+.post-content video.lightbox-able { cursor: zoom-in; }
+.lightbox__caption {
+  margin-top: 0.75rem;
+  font-style: italic;
+  font-size: 0.95em;
+  text-align: center;
+  color: #ccc;
+}
+.lightbox__caption:empty { display: none; }
+.lightbox__caption a { color: #f0a0a3; }
+.lightbox__close, .lightbox__nav {
+  position: absolute;
+  background: none; border: 0;
+  color: #eee; cursor: pointer;
+  line-height: 1; padding: 0.5rem;
+  opacity: 0.75;
+}
+.lightbox__close:hover, .lightbox__nav:hover { opacity: 1; }
+.lightbox__close { top: 0.5rem; right: 0.75rem; font-size: 2.5rem; }
+.lightbox__nav { top: 50%; transform: translateY(-50%); font-size: 3.5rem; }
+.lightbox__nav--prev { left: 0.5rem; }
+.lightbox__nav--next { right: 0.5rem; }
+.lightbox__nav[hidden] { display: none; }
+@media (max-width: 600px) {
+  .lightbox__figure { width: 100vw; }
+  .lightbox .lightbox__img { height: calc(100vh - 8rem); }
+  .lightbox__nav { top: auto; bottom: 0.5rem; transform: none; font-size: 2.5rem; }
+}
+</style>
+
+<script>
+(function () {
+  var dialog = document.querySelector('dialog.lightbox');
+  if (!dialog || typeof dialog.showModal !== 'function') return;
+  var img = dialog.querySelector('img.lightbox__img');
+  var video = dialog.querySelector('.lightbox__video');
+  var caption = dialog.querySelector('.lightbox__caption');
+  var prev = dialog.querySelector('.lightbox__nav--prev');
+  var next = dialog.querySelector('.lightbox__nav--next');
+  var group = [], index = 0;
+
+  function captionFor(el) {
+    var fig = el.closest('figure');
+    var fc = fig && fig.querySelector('figcaption');
+    return fc ? fc.innerHTML : (el.getAttribute('alt') || el.getAttribute('aria-label') || '');
+  }
+  function show(i) {
+    index = (i + group.length) % group.length;
+    var el = group[index];
+    var isVideo = el.tagName === 'VIDEO';
+    img.hidden = isVideo;
+    video.hidden = !isVideo;
+    if (isVideo) {
+      img.removeAttribute('src');
+      video.src = el.currentSrc || el.src;
+      video.setAttribute('aria-label', el.getAttribute('aria-label') || '');
+      video.play().catch(function () {});
+    } else {
+      video.pause();
+      video.removeAttribute('src');
+      img.src = el.currentSrc || el.src;
+      img.alt = el.alt;
+    }
+    caption.innerHTML = captionFor(el);
+    prev.hidden = next.hidden = group.length < 2;
+  }
+  function open(el) {
+    var carousel = el.closest('[data-img-carousel]');
+    group = carousel ? Array.prototype.slice.call(carousel.querySelectorAll('img')) : [el];
+    show(group.indexOf(el));
+    dialog.showModal();
+  }
+
+  document.querySelectorAll('.post-content img, .post-content video').forEach(function (el) {
+    if (el.closest('a, dialog')) return;
+    el.classList.add('lightbox-able');
+    el.addEventListener('click', function () { open(el); });
+  });
+
+  prev.addEventListener('click', function (e) { e.stopPropagation(); show(index - 1); });
+  next.addEventListener('click', function (e) { e.stopPropagation(); show(index + 1); });
+  dialog.querySelector('.lightbox__close').addEventListener('click', function () { dialog.close(); });
+  // Clicking anywhere except the nav buttons or a caption link closes it.
+  dialog.addEventListener('click', function (e) {
+    if (!e.target.closest('.lightbox__nav, .lightbox__caption a')) dialog.close();
+  });
+  dialog.addEventListener('keydown', function (e) {
+    if (group.length < 2) return;
+    if (e.key === 'ArrowLeft') { e.preventDefault(); show(index - 1); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); show(index + 1); }
+  });
+  dialog.addEventListener('close', function () {
+    img.removeAttribute('src');
+    video.pause();
+    video.removeAttribute('src');
+  });
+})();
+</script>

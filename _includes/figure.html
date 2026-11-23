@@ -1,0 +1,34 @@
+{% comment %}
+  Single captioned image.
+
+  Usage:
+    {% include figure.html src="/assets/images/foo.jpg" caption="Some *markdown* caption" %}
+
+  Optional params:
+    width  - display width, e.g. "300" or "50%" (default: full width of the post)
+    alt    - alt text (defaults to the caption)
+
+  A .mp4 or .webm src becomes a GIF-like video: autoplaying, looping, muted, no controls.
+{% endcomment %}
+{% assign ext = include.src | split: "." | last | downcase %}
+{% assign label = include.alt | default: include.caption | markdownify | strip_html | strip | escape %}
+<figure class="captioned-figure"{% if include.width %} style="max-width: {{ include.width }}{% unless include.width contains '%' or include.width contains 'px' %}px{% endunless %}"{% endif %}>
+  {% if ext == "mp4" or ext == "webm" %}
+  <video src="{{ include.src | relative_url }}" aria-label="{{ label }}" autoplay loop muted playsinline preload="metadata"></video>
+  {% else %}
+  <img src="{{ include.src | relative_url }}" alt="{{ label }}" loading="lazy" decoding="async">
+  {% endif %}
+  {% if include.caption %}<figcaption>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
+</figure>
+
+<style>
+.captioned-figure { margin: 1.5rem auto; }
+.captioned-figure img, .captioned-figure video { display: block; width: 100%; height: auto; }
+.captioned-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+  color: #555;
+  text-align: center;
+  font-style: italic;
+}
+</style>
