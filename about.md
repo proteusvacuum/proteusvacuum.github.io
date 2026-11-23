@@ -10,6 +10,6 @@ My name is Farid. I ride bikes and write code and sometimes write code.
 
 I have a strong belief that technology can have a positive impact on society, and I am particularly concerned with using technology in a socially just, civic manner.
 
-I currently live in Montreal, QC.
+I currently live in Val-Morin, QC.
 
 Contact me at the links below.
